@@ -1,0 +1,12 @@
+//  STYLE VARIABLES 
+
+$primary-color-100: hsl(31, 77%, 52%);    //  Bright orange
+$primary-color-200: hsl(184, 100%, 22%);  //  Dark cyan
+$primary-color-300: hsl(179, 100%, 13%);  //  Very dark cyan
+
+$neutral-color-100: hsla(0, 0%, 100%, 0.75);  //  Transparent white (paragraphs)
+$neutral-color-200: hsl(0, 0%, 95%);          //  Very light gray (background, headings, buttons)
+
+//  FILE IMPORTS 
+
+@import 'font';
