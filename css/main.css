@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,5 +20,16 @@
 
 .attribution a {
   color: #3e52a3;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+p {
+  font-family: 'Lexend Deca';
+  color: rgba(255, 255, 255, 0.75);
 }
 /*# sourceMappingURL=main.css.map */
