@@ -16,6 +16,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .attribution a {
@@ -24,12 +25,33 @@ body {
 
 h1 {
   font-family: 'Big Shoulders Display';
-  font-weight: 700;
   color: #f2f2f2;
+  font-weight: 700;
 }
 
 p {
   font-family: 'Lexend Deca';
   color: rgba(255, 255, 255, 0.75);
+}
+
+button {
+  background-color: #f2f2f2;
+  border: 1px #f2f2f2;
+  font-family: 'Lexend Deca';
+  border-radius: 40px;
+  padding: 10px;
+  width: 100px;
+}
+
+li:nth-child(1) > button {
+  color: #e38826;
+}
+
+li:nth-child(2) > button {
+  color: #006970;
+}
+
+li:nth-child(3) > button {
+  color: #004241;
 }
 /*# sourceMappingURL=main.css.map */
