@@ -10,17 +10,46 @@
 }
 
 body {
-  background-color: black;
+  height: 100vh;
+  background-color: #f2f2f2;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.75);
 }
 
 .attribution a {
   color: #3e52a3;
+}
+
+.card {
+  margin: 20% auto;
+  width: 340px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+li:nth-child(1) {
+  background-color: #e38826;
+}
+
+li:nth-child(2) {
+  background-color: #006970;
+}
+
+li:nth-child(3) {
+  background-color: #004241;
+}
+
+button {
+  border-radius: 40px;
+  padding: 10px;
+  width: 100px;
 }
 
 h1 {
@@ -38,9 +67,6 @@ button {
   background-color: #f2f2f2;
   border: 1px #f2f2f2;
   font-family: 'Lexend Deca';
-  border-radius: 40px;
-  padding: 10px;
-  width: 100px;
 }
 
 li:nth-child(1) > button {
