@@ -7,14 +7,13 @@
 }
 
 body {
-  background-color: black;
-  // background-color: $neutral-color-200;
+  height: 100vh;
+  background-color: $neutral-color-200;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: $neutral-color-100;
 
   a {
     color: hsl(228, 45%, 44%); 
