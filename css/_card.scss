@@ -1,0 +1,23 @@
+.card {
+  margin: 20% auto;
+  width: 340px;
+  border-radius: 5px;
+  overflow: hidden; // relative to border-radius
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  &:nth-child(1) {background-color: $primary-color-100;}
+  &:nth-child(2) {background-color: $primary-color-200;}
+  &:nth-child(3) {background-color: $primary-color-300;}
+}
+
+
+button {
+  border-radius: 40px;
+  padding: 10px;
+  width: 100px;
+}
