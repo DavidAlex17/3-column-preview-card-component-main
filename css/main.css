@@ -24,8 +24,9 @@ body {
 }
 
 .card {
+  text-align: left;
   margin: 20% auto;
-  width: 340px;
+  width: 300px;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -46,14 +47,28 @@ li:nth-child(3) {
   background-color: #004241;
 }
 
+img {
+  margin: 40px 0px 0px 40px;
+}
+
+h1 {
+  margin: 20px 40px 0px 40px;
+}
+
+p {
+  margin: 20px 60px 20px 40px;
+}
+
 button {
   border-radius: 40px;
+  margin: 0px 0px 40px 40px;
   padding: 10px;
   width: 100px;
 }
 
 h1 {
   font-family: 'Big Shoulders Display';
+  text-transform: uppercase;
   color: #f2f2f2;
   font-weight: 700;
 }
