@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@media (min-width: 800px) {
+  .card {
+    margin: 100px auto;
+    width: 80%;
+  }
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  p {
+    margin: 20px 12px 20px 40px;
+  }
+}
+
 *,
 *::before,
 *::after {
