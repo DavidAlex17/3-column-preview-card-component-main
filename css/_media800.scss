@@ -2,13 +2,11 @@
   .card {
     margin: 100px auto;
     width: 80%;
-  }
+    
+    ul {
+      display: flex;
 
-  ul {
-    display: flex;
-  }
-
-  p {
-    margin: 20px 12px 20px 40px;
+      p {margin: 20px 12px 20px 40px;}
+    }
   }
 }
