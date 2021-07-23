@@ -5,12 +5,12 @@
     margin: 100px auto;
     width: 80%;
   }
-  ul {
+  .card ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  p {
+  .card ul p {
     margin: 20px 12px 20px 40px;
   }
 }
@@ -46,8 +46,27 @@ body {
   overflow: hidden;
 }
 
-ul {
+.card ul {
   list-style: none;
+}
+
+.card ul img {
+  margin: 40px 0px 0px 40px;
+}
+
+.card ul h1 {
+  margin: 20px 40px 0px 40px;
+}
+
+.card ul p {
+  margin: 20px 40px 20px 40px;
+}
+
+.card ul button {
+  border-radius: 40px;
+  margin: 0px 0px 40px 40px;
+  padding: 10px;
+  width: 100px;
 }
 
 li:nth-child(1) {
@@ -60,25 +79,6 @@ li:nth-child(2) {
 
 li:nth-child(3) {
   background-color: #004241;
-}
-
-img {
-  margin: 40px 0px 0px 40px;
-}
-
-h1 {
-  margin: 20px 40px 0px 40px;
-}
-
-p {
-  margin: 20px 50px 20px 40px;
-}
-
-button {
-  border-radius: 40px;
-  margin: 0px 0px 40px 40px;
-  padding: 10px;
-  width: 100px;
 }
 
 h1 {
